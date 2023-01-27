@@ -59,7 +59,6 @@ p{
 .plan{
     width: 117px;
     height: 100%;
-        
 }
 
 a, .change-button{
@@ -71,8 +70,6 @@ a, .change-button{
     width: 52px;
     text-align: right;
 }
-
-
 
 #hero-illustration{
     border-radius: 11px 11px 0 0;
