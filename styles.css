@@ -130,3 +130,19 @@ main{
     top: 0;
     left: 0;
 }
+
+.change-button:hover{
+    color: #766CF1;
+}
+
+#submit:hover{
+    background-color: #766CF1;
+}
+
+#cancel:hover{
+    color: #1F2E55
+}
+
+a:hover{
+    text-decoration: none;
+}
