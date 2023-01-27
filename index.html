@@ -17,16 +17,15 @@
             <h1>Order Summary</h1>
             <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
             <div class="cost">
-                <img src="order-summary-component/images/icon-music.svg" alt="icon-music">
-                <h2>Annual plan</h2>
-                <p>$59.99/year</p>
-                <p>Change</p>
+                <img id="icon-music" src="order-summary-component/images/icon-music.svg" alt="icon-music">
+                <div class="plan">
+                    <h2>Annual plan</h2>
+                    <p id="price">$59.99/year</p>
+                </div>
+                <a href=""><p class="change-button">Change</p></a>
             </div>
-            <div class="buttons">
-                <input type="button" value="Proceed to Payment">
-                <input type="button" value="Cancel Order">
-            </div>
-            
+            <input type="button" id="submit" value="Proceed to Payment">
+            <input type="button" id="cancel" value="Cancel Order">  
         </div>
     </main>
 </body>
