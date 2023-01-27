@@ -1,13 +1,15 @@
+*{
+    margin: 0;
+}
+
 html{
     font-family: 'Red Hat Display', sans-serif;
 }
 
 body{
     background-color: #F2F2F2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    position: relative;
 }
 
 h1{
@@ -112,3 +114,19 @@ a, .change-button{
     line-height: 19.85px;
 }
 
+#wave{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
